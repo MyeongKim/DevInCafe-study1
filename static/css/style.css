@@ -1,0 +1,16 @@
+.navbar-default{
+	background: transparent;
+	border-width: 0px;
+}
+
+.jumbotron{
+	background: transparent;
+	padding: 0;
+}
+
+.jiver-jumbotron{
+	text-align: center;
+	background-image: url("../img/newyork.jpg");
+	height: 500px;
+	padding-top: 150px;
+}
