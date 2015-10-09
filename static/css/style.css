@@ -1,6 +1,51 @@
 .navbar-default{
 	background: transparent;
 	border-width: 0px;
+	color : #fff;
+	box-shadow: none;
+}
+
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #fff;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+}
+
+.btn{
+	border: 1px solid;
+	border-radius: 2px;
+}
+
+.nav>li>a{
+	margin: 10px 15px;
+	padding: 4px 12px;
+}
+
+.navbar-default .navbar-nav>li>a:hover.btn-become-a-host{
+	background-color: rgba(0,0,0,0.35);
+}
+
+.navbar-brand, .navbar-nav>li>a{
+	text-shadow : 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #fff;
+}
+
+.btn-become-a-host{
+	border-color: #fff;
+	border-width: 2px;
 }
 
 .jumbotron{
@@ -9,8 +54,41 @@
 }
 
 .jiver-jumbotron{
+	color: #fff;
 	text-align: center;
 	background-image: url("../img/newyork.jpg");
+	background-repeat: no-repeat;
 	height: 500px;
+	width: 100%;
 	padding-top: 150px;
+}
+
+.space-4{
+	margin-bottom: 25px;
+}
+
+
+.jiver-jumbotron .jiver-btn-tutorial{
+	color: #fff;
+	border-radius: 2px;
+	line-height: 1.43;
+}
+
+.btn-semi-transparent{
+	background: rgba(255,255,255,0.5);
+	border-style: none;
+}
+
+.btn-semi-transparent:hover{
+	background-color: rgba(0,0,0,0.35);
+}
+
+[class*="col-"]{
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+	height: 200px;
+	background-color: rgba(86,61,124,.15);
+	border: 1px solid rgba(86,61,124,.2);
 }
